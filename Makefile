@@ -31,7 +31,7 @@ qa: fmt lint mypy bandit radon
 
 .PHONY: run
 run:
-	uv run uvicorn src.app.main:app --reload
+	uv run uvicorn
 
 # ==== PRE-COMMIT ====
 
