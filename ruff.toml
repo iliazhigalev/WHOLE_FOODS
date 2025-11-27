@@ -1,0 +1,20 @@
+line-length = 100
+target-version = "py313"
+
+[lint]
+select = [
+    "E",  # pycodestyle errors
+    "F",  # pyflakes
+    "W",  # warnings
+    "B",  # flake8-bugbear
+    "C90",# mccabe complexity
+    "I",  # import sorting
+]
+ignore = [
+    "E501",  # игнорируем длину строки
+]
+
+[format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "auto"

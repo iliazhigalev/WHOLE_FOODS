@@ -1,0 +1,12 @@
+# Bandit security checks
+skips:
+  - B101  # assert statements
+  - B601  # subprocess with shell=True (если будешь использовать — вернём обратно)
+
+exclude_dirs:
+  - .venv
+  - tests
+  - migrations
+
+severity: "LOW"
+confidence: "LOW"

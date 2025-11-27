@@ -1,0 +1,13 @@
+[radon]
+exclude = [
+    "tests",
+    "migrations",
+    ".venv"
+]
+
+# Порог цикломатической сложности
+cc_min = "A"
+cc_max = "C"
+
+# Порог maintainability index
+mi_min = 70
